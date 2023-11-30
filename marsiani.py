@@ -33,7 +33,7 @@ def main():
                 weights.append(weight)
             cargo_weight = check_total_weight(total_weight, weights)
             if cargo_weight:
-                print("Congratulations! You found all the cargo!")
+                print("Congratulations! You found all the cargo! Uraaa!!!")
                 break
             else:
                 print('Fail, you entered wrong weight.')
